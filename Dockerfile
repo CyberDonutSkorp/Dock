@@ -2,6 +2,6 @@ FROM python:latest
 
 WORKDIR /app
 
-COPY python.py
+COPY python.py .
 
 ENTRYPOINT ["python", "python.py"]
